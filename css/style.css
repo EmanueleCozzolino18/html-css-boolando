@@ -65,7 +65,7 @@
 }
 
 .creative:hover .none {
-    display: block;
+    display: inline-block;
 }
 
 .creative:hover .switch {

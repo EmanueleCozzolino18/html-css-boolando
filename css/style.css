@@ -67,3 +67,49 @@
 .creative:hover .none {
     display: block;
 }
+
+.creative:hover .switch {
+    display: none;
+}
+
+.discount {
+    position: absolute;
+    background-color: red;
+    width: 17%;
+    color: white;
+    bottom: 110px;
+    padding: 5px 8px;
+    font-weight: bold;
+}
+
+.sost {
+    position: absolute;
+    background-color: green;
+    width: 36%;
+    color: white;
+    bottom: 110px;
+    padding: 5px 8px;
+    font-weight: bold;
+    left: 60px;
+}
+
+.sost-due {
+    position: absolute;
+    background-color: green;
+    width: 36%;
+    color: white;
+    bottom: 110px;
+    padding: 5px 8px;
+    font-weight: bold;
+}
+
+.heart {
+    position: absolute;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    right: 0px;
+    top: 5px;
+    font-size: 35px;
+    padding: 5px 15px;
+}

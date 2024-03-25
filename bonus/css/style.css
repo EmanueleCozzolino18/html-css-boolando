@@ -8,12 +8,20 @@
 
 header {
     background-color: #FF6900;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+main {
+    padding-top: 100px;
 }
 
 .head-cont {
-    max-width: 1200px;
     height: 60px;
     margin: auto;
+    top: 0px;
+    left: 0px;
 }
 
 .container {
@@ -51,21 +59,18 @@ header {
     height: 100%;
 }
 
-.head-30 {
-    width: 30%;
-    background-color: red;
+.head-35 {
+    width: 35%;
     height: 30px;
 }
 
 .head-60 {
-    width: 60%;
-    background-color: pink;
+    width: 50%;
     height: 30px;
+    text-align: center;
 }
 
-.padding-10 {
-    padding: 15px;
-}
+
 
 /* FINE CLASSI LAYOUT */
 
@@ -147,4 +152,45 @@ header {
 
 .heart:hover {
     color: red;
+}
+
+.padding-10 {
+    padding: 15px;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.list li {
+    display: inline-block;
+}
+
+.list-w li a {
+    color: white;
+}
+
+.list li a {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0px 13px;
+}
+
+.logo {
+    height: 30px;
+    width: auto;
+}
+
+.contet-center {
+    justify-content: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.icon-size {
+    height: 30px;
+    width: 30px;
+    filter: brightness(0) saturate(100%) invert(97%) sepia(3%) saturate(0%) hue-rotate(260deg) brightness(103%) contrast(104%);
 }

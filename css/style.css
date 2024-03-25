@@ -16,15 +16,24 @@
 }
 
 .prod-100 {
+    max-width: 1000px;
     width: 100%;
     background-color: aqua;
+    margin: auto;
 }
 
 .prod-div {
     margin: 10px;
     width: calc(100% / 3 - 20px);
-    height: 300px;
-    background-color: brown;
+}
+
+.creative {
+    position: relative;
+}
+
+.creative img {
+    width: 100%;
+    height: 100%;
 }
 
 /* FINE CLASSI LAYOUT */

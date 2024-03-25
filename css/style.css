@@ -18,7 +18,6 @@
 .prod-100 {
     max-width: 1000px;
     width: 100%;
-    background-color: aqua;
     margin: auto;
 }
 
@@ -37,3 +36,25 @@
 }
 
 /* FINE CLASSI LAYOUT */
+
+/* CLASSI UTILITY */
+
+.p-desc {
+    font-family: Arial, sans-serif;
+    display: block;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.red-price {
+    color: red;
+    display: inline;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: black;
+    font-weight: normal;
+}

@@ -27,6 +27,7 @@
 }
 
 .creative {
+    margin-bottom: 20px;
     position: relative;
 }
 
@@ -57,4 +58,12 @@
     text-decoration: line-through;
     color: black;
     font-weight: normal;
+}
+
+.none {
+    display: none;
+}
+
+.creative:hover .none {
+    display: block;
 }
